@@ -30,7 +30,6 @@ adb shell pm uninstall --user 0 com.android.wallpaperbackup
 adb shell pm uninstall --user 0 com.google.android.marvin.talkback
 adb shell pm uninstall --user 0 com.android.wallpapercropper
 adb shell pm uninstall --user 0 com.android.stk
-adb shell pm uninstall --user 0 com.android.providers.media
 adb shell pm uninstall --user 0 com.example.android.notepad
 adb shell pm uninstall --user 0 com.android.email
 adb shell pm uninstall --user 0 com.android.browser
