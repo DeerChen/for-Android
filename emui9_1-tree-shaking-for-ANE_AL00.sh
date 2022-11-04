@@ -109,6 +109,7 @@
 #com.android.frameworkhwext.honor # 华为框架服务
 #com.android.systemui.overlay
 #com.huawei.android.FMRadio # 收音机
+#com.huawei.HwMultiScreenShot # 滚动截屏
 
 adb devices 2>&1 | grep -E device$
 if [ $? -ne 0  ] ; then echo "Missmatching device"; exit 1; fi
@@ -173,7 +174,6 @@ adb shell pm uninstall --user 0 com.huawei.intelligent # 智能助手, 负一屏
 adb shell pm uninstall --user 0 com.huawei.hicard # 华为卡片服务
 adb shell pm uninstall --user 0 com.huawei.vassistant # 语音助手
 adb shell pm uninstall --user 0 com.huawei.educenter # 教育中心
-adb shell pm uninstall --user 0 com.huawei.HwMultiScreenShot # 滚动截屏
 adb shell pm uninstall --user 0 com.huawei.welinknow # LinkNow
 adb shell pm uninstall --user 0 com.huawei.KoBackup # 备份
 adb shell pm uninstall --user 0 com.huawei.hwvplayer.youku # 优酷
